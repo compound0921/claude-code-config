@@ -1,0 +1,21 @@
+# 本地运行痕迹，永不上传
+.credentials.json
+history.jsonl
+projects/
+sessions/
+session-env/
+shell-snapshots/
+file-history/
+backups/
+cache/
+plans/
+todos/
+ide/
+statsig/
+plugins/cache/
+plugins/marketplaces/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

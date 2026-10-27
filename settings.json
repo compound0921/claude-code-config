@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v jq python python3)",
+      "Bash(cd /tmp)",
+      "Bash(python -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Read(//tmp/**)",
+      "Bash(pwd -W)",
+      "Bash(cygpath -w /tmp)",
+      "Read(//c/Users/Compound/AppData/Local/Temp/**)"
+    ]
+  },
+  "model": "deepseek-flash[1m]",
+  "enabledPlugins": {
+    "cybersecurity-skills@anthropic-cybersecurity-skills": false
+  },
+  "extraKnownMarketplaces": {
+    "anthropic-cybersecurity-skills": {
+      "source": {
+        "source": "github",
+        "repo": "mukul975/Anthropic-Cybersecurity-Skills"
+      }
+    }
+  },
+  "modelSettings": {
+    "deepseek-flash": {
+      "effortLevel": "medium"
+    }
+  }
+}

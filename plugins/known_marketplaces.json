@@ -1,0 +1,18 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "C:\\Users\\Compound\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "lastUpdated": "2026-10-26T16:14:34.549Z"
+  },
+  "anthropic-cybersecurity-skills": {
+    "source": {
+      "source": "github",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    "installLocation": "C:\\Users\\Compound\\.claude\\plugins\\marketplaces\\anthropic-cybersecurity-skills",
+    "lastUpdated": "2026-10-22T02:30:58.372Z"
+  }
+}
